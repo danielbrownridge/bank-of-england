@@ -18,6 +18,10 @@ I get an error in my Chrome web browser when visiting a website that presents th
     YV1oTphmKEy1w2k8Th4MJZy5m5uUGVTjb5StQChWZIGV
     -----END CERTIFICATE-----
 
+## Answer
+
+The certificate is issued by the same organisation it is intended for which means it is **self signed**. A valid certificate should issued by one of the trusted Certificate Authorities known to Google Chrome.
+
 
 ## Analysis
 1. The data starts and ends with
