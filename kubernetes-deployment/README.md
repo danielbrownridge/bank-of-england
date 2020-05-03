@@ -5,7 +5,7 @@ Please write deployment YAML to support this.
 
 ## Answer
 
-`deployment.yaml`**
+### deployment.yaml
 
 ```yaml
 apiVersion: app/v1
@@ -36,7 +36,7 @@ This assumes that such a container exists. For the deployment YAML to work A
 container would have needed to been defined and uploaded to a suitable container
 repository.
 
-###Dockerfile**
+### Dockerfile
 
 ```dockerfile
 FROM ubuntu
